@@ -6209,16 +6209,17 @@ button.close {
     -ms-flex-pack: center;
     justify-content: center;
     width: 15%;
-    color: #fff;
+    color: #e45447;
     text-align: center;
     opacity: .5
+
 }
 
 .carousel-control-next:focus,
 .carousel-control-next:hover,
 .carousel-control-prev:focus,
 .carousel-control-prev:hover {
-    color: #fff;
+    color: #e45447;
     text-decoration: none;
     outline: 0;
     opacity: .9
@@ -6232,7 +6233,7 @@ button.close {
     right: 0
 }
 
-.carousel-control-next-icon,
+/*.carousel-control-next-icon,
 .carousel-control-prev-icon {
     display: inline-block;
     width: 20px;
@@ -6248,6 +6249,31 @@ button.close {
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 }
+*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  /*height: 100px;*/
+  /*width: 100px;*/
+  /*outline: black;*/
+  /*background-size: 100%, 100%;*/
+  /*border-radius: 50%;
+  border: 1px solid black;*/
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 35px;
+  color: #e45447;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  color: #e45447;
+}
 
 .carousel-indicators {
     position: absolute;
@@ -6262,7 +6288,7 @@ button.close {
     padding-left: 0;
     margin-right: 15%;
     margin-left: 15%;
-    list-style: none
+    list-style: none;
 }
 
 .carousel-indicators li {
@@ -6275,7 +6301,7 @@ button.close {
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, .5)
+    background-color: rgba(228,84,71,.5)
 }
 
 .carousel-indicators li::before {
@@ -6299,7 +6325,7 @@ button.close {
 }
 
 .carousel-indicators .active {
-    background-color: #fff
+    background-color: #e45447
 }
 
 .carousel-caption {
