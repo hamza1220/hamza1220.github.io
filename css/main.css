@@ -1131,10 +1131,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #e45447;
     border: 1px solid #e45447;
     background: #fff; }
-    .genric-btn.primary-border:hover {
-      color: #fff;
-      background: #e45447;
-      border: 1px solid transparent; }
+  .genric-btn.primary-border:hover {
+    color: #fff;
+    background: #e45447;
+    border: 1px solid transparent; }
   .genric-btn.success {
     color: #fff;
     background: #4cd3e3;
@@ -2428,6 +2428,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   .single-work:hover .middle {
     opacity: 1; }
 
+  .proj-img{
+    max-width:50vw;
+    height: 35vh; 
+  }
+
+  .proj-link{
+    text-decoration: none;
+    color: #777777;
+  }
+
+  .proj-link:hover {
+    color: #e45447;
+  }
+
+  .black{
+    color: black;
+  }
+
 /*--------- End Work Area -------------*/
 .job-area.offwhite {
   background: #f9f9ff; }
@@ -2845,7 +2863,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 18px;
   font-weight: 700; }
 .portfolio_details_inner .portfolio_right_text p {
-  margin-bottom: 25px;
+  /*margin-bottom: 25px;*/
   font-size: 14px; }
 .portfolio_details_inner .portfolio_right_text .list li {
   margin-bottom: 7px;
