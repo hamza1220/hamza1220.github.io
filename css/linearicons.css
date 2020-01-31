@@ -360,8 +360,9 @@
 .lnr-magnifier:before {
 	content: "\e86f";
 }
-.lnr-cross:before {
-	content: "\e870";
+/*Jugaar*/
+.lnr-cross:before { 
+	content: "\e871";
 }
 .lnr-menu:before {
 	content: "\e871";

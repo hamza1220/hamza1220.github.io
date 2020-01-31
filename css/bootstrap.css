@@ -6209,17 +6209,16 @@ button.close {
     -ms-flex-pack: center;
     justify-content: center;
     width: 15%;
-    color: #e45447;
+    color: #fff;
     text-align: center;
     opacity: .5
-
 }
 
 .carousel-control-next:focus,
 .carousel-control-next:hover,
 .carousel-control-prev:focus,
 .carousel-control-prev:hover {
-    color: #e45447;
+    color: #fff;
     text-decoration: none;
     outline: 0;
     opacity: .9
@@ -6248,8 +6247,7 @@ button.close {
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
-}
-*/
+}*/
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -6266,13 +6264,13 @@ button.close {
 {
   content: '>';
   font-size: 35px;
-  color: #e45447;
+  color: #c22a1c;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 35px;
-  color: #e45447;
+  color: #c22a1c;
 }
 
 .carousel-indicators {
@@ -6288,7 +6286,7 @@ button.close {
     padding-left: 0;
     margin-right: 15%;
     margin-left: 15%;
-    list-style: none;
+    list-style: none
 }
 
 .carousel-indicators li {
